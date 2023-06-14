@@ -1,5 +1,5 @@
 import { NavLink, Link} from "react-router-dom";
-import LOGO from "../assests/images/logo.jpg"
+import LOGO from "../assests/images/logoTT.png"
 import {useState} from "react";
 
 export const Header = () => {
@@ -16,7 +16,7 @@ export const Header = () => {
            <nav className="bg-dark border-gray-200 dark:bg-gray-900">
                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                    <Link to="/" className="flex items-center">
-                       <img src={LOGO} className="h-8 mr-3" alt=" Tenant Logo"/>
+                       <img src={LOGO} className="h-10 mr-3" alt=" Tenant Logo"/>
                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">TenantTalk</span>
                    </Link>
                    
